@@ -1,4 +1,43 @@
 /* 
             General Styles 
 */
+/*Adding style to my bio-page*/
 
+/*general styles*/
+
+body {
+  background-color: rgb(15, 48, 59);
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*header style*/
+header {
+  background-color: rgb(97, 17, 61);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*image style: max width and float left*/
+img {
+  max-width: 150px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/*Description list style: background color, padding, margin*/
+.information-list{
+ clear: both;
+ background-color: rgb(97, 17, 61);
+ padding: 10px;
+ margin-top: 10px;
+ }
+
+ /*Description list style: font-weight in terms and font size set to 1.15*/
+ dt{
+  font-weight: bold;
+  font-size: 1.15 rem;
+ }
